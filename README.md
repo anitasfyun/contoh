@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Client
+Struktur Folder FE ada di folder assets
+ 
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
