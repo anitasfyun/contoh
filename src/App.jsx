@@ -12,6 +12,7 @@ import DetailPetisi from "./pages/Petisi/DetailPetisi";
 import "./App.css";
 import { Routes, Route, useLocation, Navigate, Outlet } from "react-router-dom";
 import { getAccessToken } from "./utils/network";
+import DetailPetisiAdmin from "./pages/Admin/PetisiAdmin/DetailPetisiAdmin";
 // import Profile from "./pages/Profile";
 // import InfografisAdmin from "./pages/Admin/InfografisAdmin/InfografisAdmin";
 // import AddInfografisAdmin from "./pages/Admin/InfografisAdmin/AddInfografisAdmin";
@@ -37,6 +38,7 @@ function App() {
         <Route path="/" element={<Petisi />} />
         <Route path="/petisi/terkait/:hashtag" element={<PetisiTerkait />} />
         <Route path="/detailpetisi" element={<DetailPetisi />} />
+        <Route path="/admin/aksi/:key" element={<DetailPetisiAdmin />} />
         {/* <Route path="/form" element={<FormPetisi />} /> */}
         {/* <Route path="/search" element={<Search />} /> */}
         {/* <Route path="/register" element={<Register />} />
